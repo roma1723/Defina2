@@ -1,0 +1,199 @@
+18:28:57,642 INFO  [Server] Starting JBoss (MX MicroKernel)...
+18:28:57,643 INFO  [Server] Release ID: JBoss [Zion] 4.0.2 (build: CVSTag=JBoss_4_0_2 date=200505022023)
+18:28:57,644 DEBUG [Server] Using config: org.jboss.system.server.ServerConfigImpl@cf40f5
+18:28:57,644 DEBUG [Server] Server type: class org.jboss.system.server.ServerImpl
+18:28:57,644 INFO  [Server] Home Dir: D:\Defina\jboss-4.0.2
+18:28:57,644 INFO  [Server] Home URL: file:/D:/Defina/jboss-4.0.2/
+18:28:57,645 INFO  [Server] Library URL: file:/D:/Defina/jboss-4.0.2/lib/
+18:28:57,646 INFO  [Server] Patch URL: null
+18:28:57,646 INFO  [Server] Server Name: default
+18:28:57,647 INFO  [Server] Server Home Dir: D:\Defina\jboss-4.0.2\server\default
+18:28:57,647 INFO  [Server] Server Home URL: file:/D:/Defina/jboss-4.0.2/server/default/
+18:28:57,649 INFO  [Server] Server Data Dir: D:\Defina\jboss-4.0.2\server\default\data
+18:28:57,652 INFO  [Server] Server Temp Dir: D:\Defina\jboss-4.0.2\server\default\tmp
+18:28:57,653 INFO  [Server] Server Config URL: file:/D:/Defina/jboss-4.0.2/server/default/conf/
+18:28:57,654 INFO  [Server] Server Library URL: file:/D:/Defina/jboss-4.0.2/server/default/lib/
+18:28:57,654 INFO  [Server] Root Deployment Filename: jboss-service.xml
+18:28:57,657 INFO  [Server] Starting General Purpose Architecture (GPA)...
+18:28:57,783 DEBUG [Server] Created MBeanServer: org.jboss.mx.server.MBeanServerImpl@186768e[ defaultDomain='jboss' ]
+18:28:57,798 DEBUG [Server] Boot url list: [file:/D:/Defina/jboss-4.0.2/server/default/conf/]
+18:28:57,798 DEBUG [Server] Creating loader for URL: file:/D:/Defina/jboss-4.0.2/server/default/conf/
+18:28:57,802 DEBUG [UnifiedClassLoader] New jmx UCL with url file:/D:/Defina/jboss-4.0.2/server/default/conf/
+18:28:57,802 DEBUG [RepositoryClassLoader] setRepository, repository=org.jboss.mx.loading.UnifiedLoaderRepository3@1ab28fe, cl=org.jboss.mx.loading.UnifiedClassLoader3@105738{ url=file:/D:/Defina/jboss-4.0.2/server/default/conf/ ,addedOrder=0}
+18:28:57,802 DEBUG [RepositoryClassLoader] setRepository, repository=org.jboss.mx.loading.UnifiedLoaderRepository3@1ab28fe, cl=org.jboss.mx.loading.UnifiedClassLoader3@105738{ url=file:/D:/Defina/jboss-4.0.2/server/default/conf/ ,addedOrder=0}
+18:28:57,802 DEBUG [UnifiedLoaderRepository3] Adding org.jboss.mx.loading.UnifiedClassLoader3@105738{ url=file:/D:/Defina/jboss-4.0.2/server/default/conf/ ,addedOrder=0}
+18:28:57,806 DEBUG [UnifiedLoaderRepository3] Failed to update pkgs for cl=org.jboss.mx.loading.UnifiedClassLoader3@105738{ url=file:/D:/Defina/jboss-4.0.2/server/default/conf/ ,addedOrder=1}
+java.io.FileNotFoundException: D:\Defina\jboss-4.0.2\server\default\conf (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.jboss.mx.loading.ClassLoaderUtils$ClassPathIterator.<init>(ClassLoaderUtils.java:579)
+	at org.jboss.mx.loading.ClassLoaderUtils.updatePackageMap(ClassLoaderUtils.java:236)
+	at org.jboss.mx.loading.UnifiedLoaderRepository3.updatePackageMap(UnifiedLoaderRepository3.java:769)
+	at org.jboss.mx.loading.UnifiedLoaderRepository3.addRepositoryClassLoader(UnifiedLoaderRepository3.java:726)
+	at org.jboss.mx.loading.UnifiedLoaderRepository3.addClassLoader(UnifiedLoaderRepository3.java:648)
+	at org.jboss.mx.loading.UnifiedLoaderRepository3.registerClassLoader(UnifiedLoaderRepository3.java:932)
+	at org.jboss.mx.loading.UnifiedLoaderRepository3.newClassLoader(UnifiedLoaderRepository3.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:141)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:80)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:72)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:249)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:644)
+	at org.jboss.system.server.ServerImpl.initBootLibraries(ServerImpl.java:580)
+	at org.jboss.system.server.ServerImpl.doStart(ServerImpl.java:378)
+	at org.jboss.system.server.ServerImpl.start(ServerImpl.java:315)
+	at org.jboss.Main.boot(Main.java:195)
+	at org.jboss.Main$1.run(Main.java:463)
+	at java.lang.Thread.run(Unknown Source)
+18:28:57,861 DEBUG [Server] Failed to create xmbean for: org.jboss.system.server.ServerInfo
+18:28:57,866 INFO  [ServerInfo] Java version: 1.4.2_14,Sun Microsystems Inc.
+18:28:57,867 INFO  [ServerInfo] Java VM: Java HotSpot(TM) Client VM 1.4.2_14-b05,Sun Microsystems Inc.
+18:28:57,868 INFO  [ServerInfo] OS-System: Windows Vista 6.1,x86
+18:28:57,868 DEBUG [ServerInfo] Full System Properties Dump
+18:28:57,868 DEBUG [ServerInfo]     java.runtime.name: Java(TM) 2 Runtime Environment, Standard Edition
+18:28:57,868 DEBUG [ServerInfo]     jboss.server.base.dir: D:\Defina\jboss-4.0.2\server
+18:28:57,868 DEBUG [ServerInfo]     java.protocol.handler.pkgs: org.jboss.net.protocol
+18:28:57,868 DEBUG [ServerInfo]     sun.boot.library.path: C:\Program Files\Java\j2re1.4.2_14\bin
+18:28:57,868 DEBUG [ServerInfo]     jboss.server.lib.url: file:/D:/Defina/jboss-4.0.2/server/default/lib/
+18:28:57,868 DEBUG [ServerInfo]     java.vm.version: 1.4.2_14-b05
+18:28:57,869 DEBUG [ServerInfo]     javax.management.builder.initial: org.jboss.mx.server.MBeanServerBuilderImpl
+18:28:57,869 DEBUG [ServerInfo]     java.vm.vendor: Sun Microsystems Inc.
+18:28:57,869 DEBUG [ServerInfo]     java.vendor.url: http://java.sun.com/
+18:28:57,869 DEBUG [ServerInfo]     path.separator: ;
+18:28:57,869 DEBUG [ServerInfo]     java.vm.name: Java HotSpot(TM) Client VM
+18:28:57,869 DEBUG [ServerInfo]     file.encoding.pkg: sun.io
+18:28:57,869 DEBUG [ServerInfo]     user.country: ES
+18:28:57,869 DEBUG [ServerInfo]     sun.os.patch.level: Service Pack 1
+18:28:57,869 DEBUG [ServerInfo]     program.name: run.bat
+18:28:57,869 DEBUG [ServerInfo]     java.vm.specification.name: Java Virtual Machine Specification
+18:28:57,869 DEBUG [ServerInfo]     user.dir: D:\Defina\jboss-4.0.2\bin
+18:28:57,869 DEBUG [ServerInfo]     jboss.server.base.url: file:/D:/Defina/jboss-4.0.2/server/
+18:28:57,869 DEBUG [ServerInfo]     java.runtime.version: 1.4.2_14-b05
+18:28:57,869 DEBUG [ServerInfo]     java.awt.graphicsenv: sun.awt.Win32GraphicsEnvironment
+18:28:57,869 DEBUG [ServerInfo]     java.endorsed.dirs: D:\Defina\jboss-4.0.2\bin\\..\lib\endorsed
+18:28:57,869 DEBUG [ServerInfo]     os.arch: x86
+18:28:57,869 DEBUG [ServerInfo]     java.io.tmpdir: C:\Users\XM26196\AppData\Local\Temp\
+18:28:57,869 DEBUG [ServerInfo]     line.separator: 
+
+18:28:57,869 DEBUG [ServerInfo]     jbossmx.loader.repository.class: org.jboss.mx.loading.UnifiedLoaderRepository3
+18:28:57,869 DEBUG [ServerInfo]     java.vm.specification.vendor: Sun Microsystems Inc.
+18:28:57,869 DEBUG [ServerInfo]     user.variant: 
+18:28:57,869 DEBUG [ServerInfo]     os.name: Windows Vista
+18:28:57,870 DEBUG [ServerInfo]     sun.java2d.fontpath: 
+18:28:57,870 DEBUG [ServerInfo]     jboss.bind.address: 0.0.0.0
+18:28:57,870 DEBUG [ServerInfo]     jboss.server.temp.dir: D:\Defina\jboss-4.0.2\server\default\tmp
+18:28:57,870 DEBUG [ServerInfo]     jboss.home.dir: D:\Defina\jboss-4.0.2
+18:28:57,870 DEBUG [ServerInfo]     java.library.path: C:\Program Files\Java\j2re1.4.2_14\bin;.;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.6.0_43\bin
+18:28:57,870 DEBUG [ServerInfo]     jboss.server.home.dir: D:\Defina\jboss-4.0.2\server\default
+18:28:57,870 DEBUG [ServerInfo]     java.class.version: 48.0
+18:28:57,870 DEBUG [ServerInfo]     java.specification.name: Java Platform API Specification
+18:28:57,870 DEBUG [ServerInfo]     jboss.server.config.url: file:/D:/Defina/jboss-4.0.2/server/default/conf/
+18:28:57,870 DEBUG [ServerInfo]     java.util.prefs.PreferencesFactory: java.util.prefs.WindowsPreferencesFactory
+18:28:57,870 DEBUG [ServerInfo]     os.version: 6.1
+18:28:57,870 DEBUG [ServerInfo]     jboss.home.url: file:/D:/Defina/jboss-4.0.2/
+18:28:57,870 DEBUG [ServerInfo]     user.home: C:\Users\XM26196
+18:28:57,870 DEBUG [ServerInfo]     user.timezone: America/Mexico_City
+18:28:57,870 DEBUG [ServerInfo]     java.awt.printerjob: sun.awt.windows.WPrinterJob
+18:28:57,870 DEBUG [ServerInfo]     java.specification.version: 1.4
+18:28:57,870 DEBUG [ServerInfo]     file.encoding: Cp1252
+18:28:57,870 DEBUG [ServerInfo]     jboss.server.home.url: file:/D:/Defina/jboss-4.0.2/server/default/
+18:28:57,870 DEBUG [ServerInfo]     user.name: XM26196
+18:28:57,870 DEBUG [ServerInfo]     java.class.path: C:\Program Files\Java\j2re1.4.2_14\lib\tools.jar;D:\Defina\jboss-4.0.2\bin\\run.jar
+18:28:57,870 DEBUG [ServerInfo]     jboss.lib.url: file:/D:/Defina/jboss-4.0.2/lib/
+18:28:57,870 DEBUG [ServerInfo]     jboss.server.name: default
+18:28:57,870 DEBUG [ServerInfo]     java.vm.specification.version: 1.0
+18:28:57,870 DEBUG [ServerInfo]     sun.arch.data.model: 32
+18:28:57,870 DEBUG [ServerInfo]     java.home: C:\Program Files\Java\j2re1.4.2_14
+18:28:57,870 DEBUG [ServerInfo]     java.specification.vendor: Sun Microsystems Inc.
+18:28:57,871 DEBUG [ServerInfo]     user.language: es
+18:28:57,871 DEBUG [ServerInfo]     awt.toolkit: sun.awt.windows.WToolkit
+18:28:57,871 DEBUG [ServerInfo]     java.vm.info: mixed mode
+18:28:57,871 DEBUG [ServerInfo]     java.version: 1.4.2_14
+18:28:57,871 DEBUG [ServerInfo]     java.ext.dirs: C:\Program Files\Java\j2re1.4.2_14\lib\ext
+18:28:57,871 DEBUG [ServerInfo]     jboss.server.data.dir: D:\Defina\jboss-4.0.2\server\default\data
+18:28:57,871 DEBUG [ServerInfo]     sun.boot.class.path: D:\Defina\jboss-4.0.2\bin\\..\lib\endorsed\resolver.jar;D:\Defina\jboss-4.0.2\bin\\..\lib\endorsed\xalan.jar;D:\Defina\jboss-4.0.2\bin\\..\lib\endorsed\xercesImpl.jar;D:\Defina\jboss-4.0.2\bin\\..\lib\endorsed\xml-apis.jar;C:\Program Files\Java\j2re1.4.2_14\lib\rt.jar;C:\Program Files\Java\j2re1.4.2_14\lib\i18n.jar;C:\Program Files\Java\j2re1.4.2_14\lib\sunrsasign.jar;C:\Program Files\Java\j2re1.4.2_14\lib\jsse.jar;C:\Program Files\Java\j2re1.4.2_14\lib\jce.jar;C:\Program Files\Java\j2re1.4.2_14\lib\charsets.jar;C:\Program Files\Java\j2re1.4.2_14\classes
+18:28:57,871 DEBUG [ServerInfo]     java.vendor: Sun Microsystems Inc.
+18:28:57,871 DEBUG [ServerInfo]     file.separator: \
+18:28:57,871 DEBUG [ServerInfo]     java.vendor.url.bug: http://java.sun.com/cgi-bin/bugreport.cgi
+18:28:57,871 DEBUG [ServerInfo]     sun.cpu.endian: little
+18:28:57,871 DEBUG [ServerInfo]     sun.io.unicode.encoding: UnicodeLittle
+18:28:57,871 DEBUG [ServerInfo]     sun.cpu.isalist: pentium i486 i386
+18:28:57,871 DEBUG [Server] Created system MBean: jboss.system:type=ServerInfo
+18:28:57,877 DEBUG [Server] Failed to create xmbean for: org.jboss.system.ServiceController
+18:28:57,889 DEBUG [ServiceController] Controller MBean online
+18:28:57,889 DEBUG [Server] Created system MBean: jboss.system:service=ServiceController
+18:28:57,909 DEBUG [Server] Failed to create xmbean for: org.jboss.deployment.MainDeployer
+18:28:57,914 DEBUG [Server] Created system MBean: jboss.system:service=MainDeployer
+18:28:57,914 DEBUG [ServiceController] Creating service jboss.system:service=MainDeployer
+18:28:57,921 DEBUG [MainDeployer] Creating jboss.system:service=MainDeployer
+18:28:57,933 DEBUG [Files] Failed to delete dir: D:\Defina\jboss-4.0.2\server\default\tmp\deploy
+18:28:57,946 DEBUG [MainDeployer] Created jboss.system:service=MainDeployer
+18:28:57,946 DEBUG [ServiceController] Creating dependent components for: jboss.system:service=MainDeployer dependents are: []
+18:28:57,946 DEBUG [ServiceController] starting service jboss.system:service=MainDeployer
+18:28:57,946 DEBUG [MainDeployer] Starting jboss.system:service=MainDeployer
+18:28:57,946 DEBUG [MainDeployer] Started jboss.system:service=MainDeployer
+18:28:57,946 DEBUG [ServiceController] Starting dependent components for: jboss.system:service=MainDeployer dependent components: []
+18:28:57,948 DEBUG [Server] Shutdown hook added
+18:28:57,966 DEBUG [Server] Failed to create xmbean for: org.jboss.deployment.JARDeployer
+18:28:57,968 DEBUG [Server] Created system MBean: jboss.system:service=JARDeployer
+18:28:57,968 DEBUG [ServiceController] Creating service jboss.system:service=JARDeployer
+18:28:57,968 DEBUG [JARDeployer] Creating jboss.system:service=JARDeployer
+18:28:57,979 DEBUG [JARDeployer] Created jboss.system:service=JARDeployer
+18:28:57,979 DEBUG [ServiceController] Creating dependent components for: jboss.system:service=JARDeployer dependents are: []
+18:28:57,979 DEBUG [ServiceController] starting service jboss.system:service=JARDeployer
+18:28:57,979 DEBUG [JARDeployer] Starting jboss.system:service=JARDeployer
+18:28:57,979 DEBUG [MainDeployer] Adding deployer: org.jboss.deployment.JARDeployer@4c4975
+18:28:57,979 DEBUG [JARDeployer] Started jboss.system:service=JARDeployer
+18:28:57,979 DEBUG [ServiceController] Starting dependent components for: jboss.system:service=JARDeployer dependent components: []
+18:28:57,984 DEBUG [Server] Failed to create xmbean for: org.jboss.deployment.SARDeployer
+18:28:57,987 DEBUG [Server] Created system MBean: jboss.system:service=ServiceDeployer
+18:28:57,987 DEBUG [ServiceController] Creating service jboss.system:service=ServiceDeployer
+18:28:57,987 DEBUG [SARDeployer] Creating jboss.system:service=ServiceDeployer
+18:28:57,995 DEBUG [SARDeployer] Created jboss.system:service=ServiceDeployer
+18:28:57,995 DEBUG [ServiceController] Creating dependent components for: jboss.system:service=ServiceDeployer dependents are: []
+18:28:57,995 DEBUG [ServiceController] starting service jboss.system:service=ServiceDeployer
+18:28:57,995 DEBUG [SARDeployer] Starting jboss.system:service=ServiceDeployer
+18:28:57,995 DEBUG [MainDeployer] Adding deployer: org.jboss.deployment.SARDeployer@1b48197
+18:28:57,999 DEBUG [SARDeployer] Started jboss.system:service=ServiceDeployer
+18:28:57,999 DEBUG [ServiceController] Starting dependent components for: jboss.system:service=ServiceDeployer dependent components: []
+18:28:57,999 INFO  [Server] Core system initialized
+18:28:58,008 DEBUG [Server] Failed to start
+18:28:58,009 DEBUG [NestedThrowable] org.jboss.util.NestedThrowable.parentTraceEnabled=true
+18:28:58,009 DEBUG [NestedThrowable] org.jboss.util.NestedThrowable.nestedTraceEnabled=false
+18:28:58,009 DEBUG [NestedThrowable] org.jboss.util.NestedThrowable.detectDuplicateNesting=true
+org.jboss.deployment.DeploymentException: url file:/D:/Defina/jboss-4.0.2/server/default/conf/jboss-service.xml could not be opened, does it exist?
+	at org.jboss.deployment.DeploymentInfo.<init>(DeploymentInfo.java:175)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:737)
+	at org.jboss.deployment.MainDeployer.deploy(MainDeployer.java:722)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:141)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:80)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:72)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:249)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:644)
+	at org.jboss.mx.util.MBeanProxyExt.invoke(MBeanProxyExt.java:177)
+	at $Proxy5.deploy(Unknown Source)
+	at org.jboss.system.server.ServerImpl.doStart(ServerImpl.java:434)
+	at org.jboss.system.server.ServerImpl.start(ServerImpl.java:315)
+	at org.jboss.Main.boot(Main.java:195)
+	at org.jboss.Main$1.run(Main.java:463)
+	at java.lang.Thread.run(Unknown Source)
+18:28:58,043 INFO  [Server] JBoss SHUTDOWN: Undeploying all packages
+18:28:58,043 DEBUG [MainDeployer] Undeployed 0 deployed packages
+18:28:58,043 DEBUG [Server] Shutting down all services
+18:28:58,044 DEBUG [ServiceController] Stopping 4 services
+18:28:58,044 DEBUG [ServiceController] removing service: jboss.system:service=ServiceDeployer
+18:28:58,044 DEBUG [ServiceController] removing jboss.system:service=ServiceDeployer from server
+18:28:58,045 DEBUG [ServiceController] removing service: jboss.system:service=JARDeployer
+18:28:58,045 DEBUG [ServiceController] removing jboss.system:service=JARDeployer from server
+18:28:58,046 DEBUG [ServiceController] removing service: jboss.system:service=MainDeployer
+18:28:58,046 DEBUG [ServiceController] removing jboss.system:service=MainDeployer from server
+18:28:58,046 DEBUG [ServiceController] Stopped 3 services
+18:28:58,047 DEBUG [Server] Deleting server tmp/deploy directory
+18:28:58,048 INFO  [Server] Shutdown complete

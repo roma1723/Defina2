@@ -1,0 +1,30 @@
+2011-10-12 10:32:07,125 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00001
+2011-10-12 10:32:07,125 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-10-12 10:32:07,125 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00002
+2011-10-12 10:32:07,125 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-10-12 10:32:07,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,125 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00003
+2011-10-12 10:32:07,125 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-10-12 10:32:07,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00004
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-10-12 10:32:07,140 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/escritorio.xml
+2011-10-12 10:32:07,187 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/AtaeOperacionesEscritorio.properties
+2011-10-12 15:20:25,609 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2011-10-12 15:20:27,437 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2011-10-12 15:20:27,437 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2011-10-12 15:20:27,453 INFO  [STDOUT] JAVA JSP :: Usuario 
+2011-10-12 15:20:27,453 INFO  [STDOUT] JAVA JSP :: Va a index.jsp

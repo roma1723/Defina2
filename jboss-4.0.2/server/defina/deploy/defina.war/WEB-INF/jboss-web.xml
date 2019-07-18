@@ -1,0 +1,3 @@
+<jboss-web>
+	<security-domain>java:/jaas/defina</security-domain>
+</jboss-web>

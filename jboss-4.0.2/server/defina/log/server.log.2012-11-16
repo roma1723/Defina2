@@ -1,0 +1,47 @@
+2012-11-16 12:42:21,381 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-11-16 12:42:22,350 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-11-16 12:42:22,350 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-11-16 12:42:22,350 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-11-16 12:42:22,350 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-11-16 12:46:20,613 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/aplicas.dat
+2012-11-16 12:46:20,628 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/aplicas.asc
+2012-11-16 12:46:20,628 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/pseudocodigos.properties
+2012-11-16 12:46:20,659 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADNFAC
+2012-11-16 12:46:20,659 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2012-11-16 12:46:20,659 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/escritorio.xml
+2012-11-16 12:46:20,691 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/AtaeOperacionesEscritorio.properties
+2012-11-16 12:49:35,095 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/aplicas.dat
+2012-11-16 12:49:35,110 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/aplicas.asc
+2012-11-16 12:49:35,126 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/pseudocodigos.properties
+2012-11-16 12:49:35,157 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADNFAC
+2012-11-16 12:49:35,157 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2012-11-16 12:49:35,157 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/escritorio.xml
+2012-11-16 12:49:35,188 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/AtaeOperacionesEscritorio.properties
+2012-11-16 12:52:09,280 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/aplicas.dat
+2012-11-16 12:52:09,296 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/aplicas.asc
+2012-11-16 12:52:09,311 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/pseudocodigos.properties
+2012-11-16 12:52:09,343 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADNFAC
+2012-11-16 12:52:09,343 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2012-11-16 12:52:09,343 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/escritorio.xml
+2012-11-16 12:52:09,358 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/AtaeOperacionesEscritorio.properties
+2012-11-16 12:57:29,745 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/aplicas.dat
+2012-11-16 12:57:29,776 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/aplicas.asc
+2012-11-16 12:57:29,776 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/pseudocodigos.properties
+2012-11-16 12:57:29,807 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADNFAC
+2012-11-16 12:57:29,807 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2012-11-16 12:57:29,807 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/escritorio.xml
+2012-11-16 12:57:29,838 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/AtaeOperacionesEscritorio.properties
+2012-11-16 13:05:24,770 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/aplicas.dat
+2012-11-16 13:05:24,785 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/aplicas.asc
+2012-11-16 13:05:24,801 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/pseudocodigos.properties
+2012-11-16 13:05:24,832 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADNFAC
+2012-11-16 13:05:24,832 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2012-11-16 13:05:24,832 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/escritorio.xml
+2012-11-16 13:05:24,848 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/AtaeOperacionesEscritorio.properties
+2012-11-16 13:08:38,595 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/aplicas.dat
+2012-11-16 13:08:38,611 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/aplicas.asc
+2012-11-16 13:08:38,611 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/pseudocodigos.properties
+2012-11-16 13:08:38,642 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADNFAC
+2012-11-16 13:08:38,642 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2012-11-16 13:08:38,642 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/escritorio.xml
+2012-11-16 13:08:38,674 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/AtaeOperacionesEscritorio.properties

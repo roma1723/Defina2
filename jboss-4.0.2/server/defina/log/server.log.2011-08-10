@@ -1,0 +1,194 @@
+2011-08-10 15:08:20,968 INFO  [STDOUT] F
+2011-08-10 15:08:39,656 INFO  [STDOUT] F
+2011-08-10 15:23:03,843 INFO  [STDOUT] F
+2011-08-10 15:24:23,390 INFO  [STDOUT] F
+2011-08-10 15:26:26,468 INFO  [STDOUT] F
+2011-08-10 15:26:39,703 INFO  [STDOUT] F
+2011-08-10 15:26:51,781 INFO  [STDOUT] F
+2011-08-10 15:27:04,718 INFO  [STDOUT] F
+2011-08-10 15:27:20,828 INFO  [STDOUT] F
+2011-08-10 15:27:35,000 INFO  [STDOUT] F
+2011-08-10 15:27:54,171 INFO  [STDOUT] F
+2011-08-10 15:39:06,687 INFO  [STDOUT] F
+2011-08-10 15:44:07,953 INFO  [STDOUT] longitud=0
+2011-08-10 15:44:08,031 INFO  [STDOUT] longitud=0
+2011-08-10 15:54:37,640 INFO  [STDOUT] longitud=0
+2011-08-10 15:54:37,718 INFO  [STDOUT] longitud=0
+2011-08-10 15:55:31,015 INFO  [STDOUT] longitud=0
+2011-08-10 15:55:31,093 INFO  [STDOUT] longitud=0
+2011-08-10 15:55:44,187 INFO  [STDOUT] F
+2011-08-10 15:55:45,343 INFO  [STDOUT] longitud=0
+2011-08-10 15:55:45,421 INFO  [STDOUT] longitud=0
+2011-08-10 15:57:29,609 INFO  [STDOUT] longitud=0
+2011-08-10 15:57:29,687 INFO  [STDOUT] longitud=0
+2011-08-10 15:57:42,703 INFO  [STDOUT] longitud=0
+2011-08-10 15:57:42,781 INFO  [STDOUT] longitud=0
+2011-08-10 16:09:04,781 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2011-08-10 16:09:12,906 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2011-08-10 16:11:35,796 INFO  [STDOUT] F
+2011-08-10 16:12:16,234 INFO  [STDOUT] F
+2011-08-10 16:12:56,578 INFO  [STDOUT] M
+2011-08-10 16:13:18,656 INFO  [STDOUT] F
+2011-08-10 16:13:36,109 INFO  [STDOUT] F
+2011-08-10 16:52:26,984 INFO  [STDOUT] F
+2011-08-10 16:52:41,500 INFO  [STDOUT] F
+2011-08-10 16:52:53,546 INFO  [STDOUT] F
+2011-08-10 16:53:09,593 INFO  [STDOUT] F
+2011-08-10 16:53:24,734 INFO  [STDOUT] F
+2011-08-10 16:53:44,609 INFO  [STDOUT] F
+2011-08-10 16:54:02,093 INFO  [STDOUT] F
+2011-08-10 16:54:30,828 INFO  [STDOUT] F
+2011-08-10 16:54:44,468 INFO  [STDOUT] F
+2011-08-10 16:54:58,765 INFO  [STDOUT] F
+2011-08-10 16:55:13,359 INFO  [STDOUT] F
+2011-08-10 17:06:32,968 INFO  [STDOUT] F
+2011-08-10 17:09:24,734 INFO  [STDOUT] F
+2011-08-10 17:09:59,890 INFO  [STDOUT] M
+2011-08-10 17:12:32,078 INFO  [STDOUT] F
+2011-08-10 17:30:51,390 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/pseudocodigos.properties
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00001
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00002
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00003
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00004
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:30:51,515 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:30:51,515 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/escritorio.xml
+2011-08-10 17:30:51,609 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/AtaeOperacionesEscritorio.properties
+2011-08-10 17:54:01,875 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00001
+2011-08-10 17:54:01,875 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 17:54:01,875 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00002
+2011-08-10 17:54:01,875 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 17:54:01,875 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00003
+2011-08-10 17:54:01,875 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00004
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:54:01,890 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 17:54:01,890 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/escritorio.xml
+2011-08-10 17:54:02,046 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/AtaeOperacionesEscritorio.properties
+2011-08-10 18:05:45,687 INFO  [STDOUT] longitud=0
+2011-08-10 18:05:45,703 INFO  [STDOUT] longitud=0
+2011-08-10 18:05:55,000 INFO  [STDOUT] F
+2011-08-10 18:05:55,968 INFO  [STDOUT] longitud=0
+2011-08-10 18:05:56,000 INFO  [STDOUT] longitud=0
+2011-08-10 18:06:05,453 INFO  [STDOUT] F
+2011-08-10 18:06:06,390 INFO  [STDOUT] longitud=0
+2011-08-10 18:06:06,421 INFO  [STDOUT] longitud=0
+2011-08-10 18:06:15,140 INFO  [STDOUT] F
+2011-08-10 18:06:15,875 INFO  [STDOUT] longitud=0
+2011-08-10 18:06:15,906 INFO  [STDOUT] longitud=0
+2011-08-10 18:06:53,187 INFO  [STDOUT] M
+2011-08-10 18:12:47,875 INFO  [STDOUT] longitud=0
+2011-08-10 18:12:47,953 INFO  [STDOUT] longitud=0
+2011-08-10 18:13:07,218 INFO  [STDOUT] F
+2011-08-10 18:13:08,343 INFO  [STDOUT] longitud=0
+2011-08-10 18:13:08,421 INFO  [STDOUT] longitud=0
+2011-08-10 18:13:17,218 INFO  [STDOUT] F
+2011-08-10 18:13:18,390 INFO  [STDOUT] longitud=0
+2011-08-10 18:13:18,468 INFO  [STDOUT] longitud=0
+2011-08-10 18:13:26,140 INFO  [STDOUT] F
+2011-08-10 18:13:27,140 INFO  [STDOUT] longitud=0
+2011-08-10 18:13:27,218 INFO  [STDOUT] longitud=0
+2011-08-10 18:13:36,015 INFO  [STDOUT] F
+2011-08-10 18:13:37,031 INFO  [STDOUT] longitud=0
+2011-08-10 18:13:37,109 INFO  [STDOUT] longitud=0
+2011-08-10 18:13:58,750 INFO  [STDOUT] longitud=0
+2011-08-10 18:13:58,828 INFO  [STDOUT] longitud=0
+2011-08-10 18:14:13,468 INFO  [STDOUT] M
+2011-08-10 18:14:14,750 INFO  [STDOUT] longitud=0
+2011-08-10 18:14:14,828 INFO  [STDOUT] longitud=0
+2011-08-10 18:14:36,453 INFO  [STDOUT] F
+2011-08-10 18:14:37,593 INFO  [STDOUT] longitud=0
+2011-08-10 18:14:37,671 INFO  [STDOUT] longitud=0
+2011-08-10 18:15:15,515 INFO  [STDOUT] M
+2011-08-10 18:15:52,531 INFO  [STDOUT] F
+2011-08-10 18:29:17,125 INFO  [STDOUT] longitud=0
+2011-08-10 18:29:17,203 INFO  [STDOUT] longitud=0
+2011-08-10 18:29:29,031 INFO  [STDOUT] F
+2011-08-10 18:29:30,156 INFO  [STDOUT] longitud=0
+2011-08-10 18:29:30,234 INFO  [STDOUT] longitud=0
+2011-08-10 18:29:40,328 INFO  [STDOUT] F
+2011-08-10 18:29:41,421 INFO  [STDOUT] longitud=0
+2011-08-10 18:29:41,500 INFO  [STDOUT] longitud=0
+2011-08-10 18:29:52,671 INFO  [STDOUT] F
+2011-08-10 18:29:53,734 INFO  [STDOUT] longitud=0
+2011-08-10 18:29:53,843 INFO  [STDOUT] longitud=0
+2011-08-10 18:30:03,984 INFO  [STDOUT] F
+2011-08-10 18:30:05,109 INFO  [STDOUT] longitud=0
+2011-08-10 18:30:05,171 INFO  [STDOUT] longitud=0
+2011-08-10 18:30:14,812 INFO  [STDOUT] F
+2011-08-10 18:30:15,906 INFO  [STDOUT] longitud=0
+2011-08-10 18:30:15,984 INFO  [STDOUT] longitud=0
+2011-08-10 18:30:51,421 INFO  [STDOUT] longitud=0
+2011-08-10 18:30:51,500 INFO  [STDOUT] longitud=0
+2011-08-10 18:31:05,359 INFO  [STDOUT] M
+2011-08-10 18:31:07,281 INFO  [STDOUT] longitud=0
+2011-08-10 18:31:07,359 INFO  [STDOUT] longitud=0
+2011-08-10 18:32:16,796 INFO  [STDOUT] F
+2011-08-10 18:32:36,843 INFO  [STDOUT] F
+2011-08-10 18:35:46,109 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00001
+2011-08-10 18:35:46,109 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 18:35:46,109 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00002
+2011-08-10 18:35:46,109 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 18:35:46,125 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00003
+2011-08-10 18:35:46,125 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00004
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:35:46,140 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:35:46,140 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/escritorio.xml
+2011-08-10 18:35:46,250 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/AtaeOperacionesEscritorio.properties
+2011-08-10 18:36:06,296 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2011-08-10 18:40:04,015 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/pseudocodigos.properties
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00001
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00002
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00003
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: La operación padre es ADC00004
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFIH :: En la generación de menús de AD
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:40:04,125 INFO  [STDOUT] JAVA GENFICH :: Genera el trozo de menús
+2011-08-10 18:40:04,125 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/escritorio.xml
+2011-08-10 18:40:04,234 INFO  [STDOUT] El fichero donde se va a volcar la información es D:/Defina/jboss-4.0.2/server/defina/deploy/defina.war/ficheros/Canales Ligeros/Produccion/AtaeOperacionesEscritorio.properties

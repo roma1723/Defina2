@@ -1,0 +1,409 @@
+2012-10-26 09:54:32,052 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 09:54:49,582 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 09:54:49,582 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 09:54:49,582 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 09:54:49,582 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 11:31:56,046 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 11:31:59,171 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 11:31:59,171 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 11:31:59,171 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 11:31:59,171 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 11:32:08,827 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 11:32:28,560 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 11:35:49,099 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 11:35:49,896 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 11:43:41,644 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 11:43:42,769 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 11:43:42,769 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 11:43:42,769 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 11:43:42,769 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 11:43:54,096 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/defina].[jsp]] Servlet.service() for servlet jsp threw exception
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at atad.defina.datos.AccesoDatosJDBC.getOperaciones(AccesoDatosJDBC.java:1672)
+	at org.apache.jsp.operacion_jsp._jspService(org.apache.jsp.operacion_jsp:252)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:202)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.jboss.web.tomcat.security.CustomPrincipalValve.invoke(CustomPrincipalValve.java:39)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:153)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:407)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:59)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:744)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:527)
+	at org.apache.tomcat.util.net.MasterSlaveWorkerThread.run(MasterSlaveWorkerThread.java:112)
+	at java.lang.Thread.run(Thread.java:595)
+2012-10-26 11:44:35,267 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 11:44:36,735 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 11:44:47,407 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/defina].[jsp]] Servlet.service() for servlet jsp threw exception
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at atad.defina.datos.AccesoDatosJDBC.getOperaciones(AccesoDatosJDBC.java:1672)
+	at org.apache.jsp.operacion_jsp._jspService(org.apache.jsp.operacion_jsp:252)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:202)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.jboss.web.tomcat.security.CustomPrincipalValve.invoke(CustomPrincipalValve.java:39)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:153)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:407)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:59)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:744)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:527)
+	at org.apache.tomcat.util.net.MasterSlaveWorkerThread.run(MasterSlaveWorkerThread.java:112)
+	at java.lang.Thread.run(Thread.java:595)
+2012-10-26 11:53:21,137 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 11:53:22,403 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 11:53:22,403 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 11:53:22,403 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 11:53:22,403 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 11:53:32,824 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/defina].[jsp]] Servlet.service() for servlet jsp threw exception
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at atad.defina.datos.AccesoDatosJDBC.getOperaciones(AccesoDatosJDBC.java:1672)
+	at org.apache.jsp.operacion_jsp._jspService(org.apache.jsp.operacion_jsp:252)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:202)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.jboss.web.tomcat.security.CustomPrincipalValve.invoke(CustomPrincipalValve.java:39)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:153)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:407)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:59)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:744)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:527)
+	at org.apache.tomcat.util.net.MasterSlaveWorkerThread.run(MasterSlaveWorkerThread.java:112)
+	at java.lang.Thread.run(Thread.java:595)
+2012-10-26 11:53:55,698 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 11:53:56,495 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 11:53:57,526 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/defina].[jsp]] Servlet.service() for servlet jsp threw exception
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at atad.defina.datos.AccesoDatosJDBC.getOperaciones(AccesoDatosJDBC.java:1672)
+	at org.apache.jsp.operacion_jsp._jspService(org.apache.jsp.operacion_jsp:252)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:202)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.jboss.web.tomcat.security.CustomPrincipalValve.invoke(CustomPrincipalValve.java:39)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:153)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:407)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:59)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:744)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:527)
+	at org.apache.tomcat.util.net.MasterSlaveWorkerThread.run(MasterSlaveWorkerThread.java:112)
+	at java.lang.Thread.run(Thread.java:595)
+2012-10-26 11:54:25,400 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/defina].[jsp]] Servlet.service() for servlet jsp threw exception
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at atad.defina.datos.AccesoDatosJDBC.getOperaciones(AccesoDatosJDBC.java:1672)
+	at org.apache.jsp.operacion_jsp._jspService(org.apache.jsp.operacion_jsp:252)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:202)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.jboss.web.tomcat.security.CustomPrincipalValve.invoke(CustomPrincipalValve.java:39)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:153)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:407)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:59)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:744)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:527)
+	at org.apache.tomcat.util.net.MasterSlaveWorkerThread.run(MasterSlaveWorkerThread.java:112)
+	at java.lang.Thread.run(Thread.java:595)
+2012-10-26 11:55:18,414 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/defina].[jsp]] Servlet.service() for servlet jsp threw exception
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at atad.defina.datos.AccesoDatosJDBC.getOperaciones(AccesoDatosJDBC.java:1672)
+	at org.apache.jsp.operacion_jsp._jspService(org.apache.jsp.operacion_jsp:252)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:202)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.jboss.web.tomcat.security.CustomPrincipalValve.invoke(CustomPrincipalValve.java:39)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:153)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:407)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:59)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:744)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:527)
+	at org.apache.tomcat.util.net.MasterSlaveWorkerThread.run(MasterSlaveWorkerThread.java:112)
+	at java.lang.Thread.run(Thread.java:595)
+2012-10-26 12:19:57,292 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 12:19:58,183 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 12:19:58,183 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 12:19:58,183 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 12:19:58,183 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 12:25:09,919 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 12:25:11,700 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 12:25:11,700 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 12:25:11,700 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 12:25:11,700 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 12:26:17,037 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 12:26:18,396 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 12:27:56,307 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 12:27:57,698 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 12:27:57,698 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 12:27:57,698 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 12:27:57,698 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 12:33:42,463 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 12:33:44,260 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 12:33:44,260 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 12:33:44,260 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 12:33:44,260 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 12:37:57,476 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 12:37:58,522 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 12:37:58,522 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 12:37:58,522 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 12:37:58,522 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 12:42:16,927 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 12:42:17,958 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 12:42:17,958 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 12:42:17,958 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 12:42:17,958 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 13:04:35,123 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 13:04:36,341 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 13:04:36,341 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 13:04:36,341 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 13:04:36,341 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 13:18:57,692 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 13:18:58,724 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 13:18:58,724 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 13:18:58,724 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 13:18:58,724 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 13:19:55,892 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 13:19:57,126 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 13:19:57,126 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 13:19:57,126 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 13:19:57,126 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 13:22:14,961 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 13:22:16,758 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 13:22:16,758 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 13:22:16,758 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 13:22:16,758 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 13:24:15,406 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 13:24:16,563 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 13:24:16,563 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 13:24:16,563 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 13:24:16,563 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 16:28:03,669 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:28:05,029 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:28:05,029 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 16:28:05,029 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 16:28:05,029 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 16:33:57,256 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:33:58,615 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:33:58,615 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 16:33:58,615 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 16:33:58,615 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 16:35:18,845 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:35:19,782 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:35:19,782 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 16:35:19,782 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 16:35:19,782 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 16:39:43,781 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:39:45,140 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:39:45,140 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 16:39:45,140 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 16:39:45,140 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 16:48:29,778 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:48:30,810 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:48:30,810 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 16:48:30,810 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 16:48:30,810 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 16:51:54,500 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:51:55,593 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:51:55,593 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 16:51:55,593 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 16:51:55,593 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 16:55:00,128 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:55:01,253 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:55:01,253 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 16:55:01,253 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 16:55:01,253 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 16:55:11,503 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/defina].[jsp]] Servlet.service() for servlet jsp threw exception
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at atad.defina.datos.AccesoDatosJDBC.getOperaciones(AccesoDatosJDBC.java:1672)
+	at org.apache.jsp.operacion_jsp._jspService(org.apache.jsp.operacion_jsp:252)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:202)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.jboss.web.tomcat.security.CustomPrincipalValve.invoke(CustomPrincipalValve.java:39)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:153)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:407)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:59)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:744)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:527)
+	at org.apache.tomcat.util.net.MasterSlaveWorkerThread.run(MasterSlaveWorkerThread.java:112)
+	at java.lang.Thread.run(Thread.java:595)
+2012-10-26 16:55:44,376 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:55:45,454 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:55:45,454 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 16:55:45,454 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 16:55:45,454 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 16:58:00,992 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:58:02,148 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 16:58:02,148 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 16:58:02,148 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 16:58:02,148 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 17:00:37,201 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/defina].[jsp]] Servlet.service() for servlet jsp threw exception
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at atad.defina.datos.AccesoDatosJDBC.getOperaciones(AccesoDatosJDBC.java:1672)
+	at org.apache.jsp.operacion_jsp._jspService(org.apache.jsp.operacion_jsp:252)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:202)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.jboss.web.tomcat.security.CustomPrincipalValve.invoke(CustomPrincipalValve.java:39)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:153)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:407)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:59)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:744)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:527)
+	at org.apache.tomcat.util.net.MasterSlaveWorkerThread.run(MasterSlaveWorkerThread.java:112)
+	at java.lang.Thread.run(Thread.java:595)
+2012-10-26 17:00:50,419 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/defina].[jsp]] Servlet.service() for servlet jsp threw exception
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at atad.defina.datos.AccesoDatosJDBC.getOperaciones(AccesoDatosJDBC.java:1672)
+	at org.apache.jsp.operacion_jsp._jspService(org.apache.jsp.operacion_jsp:252)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:202)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.jboss.web.tomcat.security.CustomPrincipalValve.invoke(CustomPrincipalValve.java:39)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:153)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:407)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:59)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:744)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:527)
+	at org.apache.tomcat.util.net.MasterSlaveWorkerThread.run(MasterSlaveWorkerThread.java:112)
+	at java.lang.Thread.run(Thread.java:595)
+2012-10-26 17:01:14,573 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 17:01:15,917 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-10-26 17:01:15,917 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-10-26 17:01:15,917 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-10-26 17:01:15,917 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-10-26 17:02:10,804 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 17:02:44,677 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 17:02:45,817 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-10-26 17:02:47,020 INFO  [STDOUT] JDBC :: Canal es Ligeros

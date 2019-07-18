@@ -1,0 +1,6 @@
+<T F=30/04/2019 03:14:15:0711 - O= > ** Canales Ligeros/Produccion **
+<T F=30/04/2019 03:14:15:0721 - O= > GeneradorFichero.getOperaciones: Error al generar el fichero de operaciones
+<T F=30/04/2019 03:14:15:0721 - O= > 	Mensaje Error: Operación no exportada por falta de datos. Posible bloqueo de registro de BD.
+<T F=30/04/2019 04:07:11:0023 - O= > ** Canales Ligeros/Produccion **
+<T F=30/04/2019 04:07:11:0023 - O= > GeneradorFichero.getOperaciones: Error al generar el fichero de operaciones
+<T F=30/04/2019 04:07:11:0023 - O= > 	Mensaje Error: Operación no exportada por falta de datos. Posible bloqueo de registro de BD.

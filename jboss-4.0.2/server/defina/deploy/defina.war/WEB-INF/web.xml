@@ -1,0 +1,22 @@
+<!--<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.// DTD Web Application 1.2//EN" "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">-->
+<web-app>
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>defina</web-resource-name>
+			<descripcion>Protege todos los recursos</descripcion>
+			<url-pattern>/index.jsp</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>WebAppUser</role-name>
+		</auth-constraint>
+	</security-constraint>
+	<security-role>
+		<role-name>WebAppUser</role-name>
+	</security-role>
+	<login-config>
+		<auth-method>FORM</auth-method>
+			<form-login-config>
+				<form-login-page>/logon.jsp</form-login-page>
+			</form-login-config>
+	</login-config>
+</web-app>

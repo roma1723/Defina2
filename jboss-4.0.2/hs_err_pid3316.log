@@ -1,0 +1,265 @@
+#
+# An unexpected error has been detected by HotSpot Virtual Machine:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x7c91100b, pid=3316, tid=2080
+#
+# Java VM: Java HotSpot(TM) Client VM (1.4.2_14-b05 mixed mode)
+# Problematic frame:
+# C  [ntdll.dll+0x100b]
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x038bfc20):  JavaThread "http-0.0.0.0-8080-7" daemon [_thread_in_native, id=2080]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x00000018
+
+Registers:
+EAX=0x00000004, EBX=0x3111c520, ECX=0x7ff97000, EDX=0x00000004
+ESP=0x0455f3a0, EBP=0x0455f3b8, ESI=0x00000000, EDI=0x043a5c50
+EIP=0x7c91100b, EFLAGS=0x00010246
+
+Top of Stack: (sp=0x0455f3a0)
+0x0455f3a0:   746159fa 00000004 043a5c74 745e139f
+0x0455f3b0:   043a5c74 043a5c50 0455f3c8 745e2c5d
+0x0455f3c0:   043a5c74 038bfcbc 0455f3dc 745e822b
+0x0455f3d0:   043a5c50 74610000 038bfc20 0455f3f8
+0x0455f3e0:   745e9652 043a5c50 0455f418 00000003
+0x0455f3f0:   02f1f590 038bfcbc 0455f410 043511da
+0x0455f400:   043a5c50 0455f418 038bfc20 3111c568
+0x0455f410:   0455f448 009e81a6 00000000 0455f464 
+
+Instructions: (pc=0x7c91100b)
+0x7c910ffb:   00 00 00 00 00 64 8b 0d 18 00 00 00 8b 54 24 04
+0x7c91100b:   83 7a 14 00 75 4f f0 ff 42 04 75 19 8b 41 24 89 
+
+
+Stack: [0x04520000,0x04560000),  sp=0x0455f3a0,  free space=252k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [ntdll.dll+0x100b]
+C  [ODBC32.dll+0x2c5d]
+C  [ODBC32.dll+0x822b]
+C  [ODBC32.dll+0x9652]
+C  [JdbcOdbc.dll+0x11da]
+j  sun.jdbc.odbc.JdbcOdbc.allocStmt(J[B)J+0
+j  sun.jdbc.odbc.JdbcOdbc.SQLAllocStmt(J)J+47
+j  sun.jdbc.odbc.JdbcOdbcConnection.prepareStatement(Ljava/lang/String;II)Ljava/sql/PreparedStatement;+55
+j  sun.jdbc.odbc.JdbcOdbcConnection.prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;+8
+j  atad.defina.datos.AccesoDatosJDBC.ejecutarActualizacion(Ljava/lang/String;Ljava/sql/Connection;)Z+28
+j  atad.defina.datos.AccesoDatosJDBC.actualizarVersion(Ljava/lang/Object;Ljava/lang/Object;)Z+49
+j  atad.defina.pres.ProcesadorAjax.modificarVersion(Ljavax/servlet/http/HttpServletRequest;Latad/defina/datos/AccesoDatosBase;)[Ljava/lang/String;+82
+j  atad.defina.pres.ProcesadorAjax.despachar(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/jsp/JspWriter;Ljavax/servlet/http/HttpSession;)V+193
+j  org.apache.jsp.procesarAjax_jsp._jspService(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V+89
+j  org.apache.jasper.runtime.HttpJspBase.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V+3
+j  javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+30
+j  org.apache.jasper.servlet.JspServletWrapper.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Z)V+186
+j  org.apache.jasper.servlet.JspServlet.serviceJspFile(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/Throwable;Z)V+129
+j  org.apache.jasper.servlet.JspServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V+435
+j  javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+30
+j  org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+354
+j  org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+101
+j  org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V+61
+j  org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+117
+j  org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+101
+j  org.apache.catalina.core.StandardWrapperValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+670
+j  org.apache.catalina.core.StandardContextValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+285
+j  org.jboss.web.tomcat.security.CustomPrincipalValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+37
+j  org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+302
+j  org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+327
+j  org.jboss.web.tomcat.security.JaccContextValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+32
+j  org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+64
+j  org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+6
+j  org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+42
+j  org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V+141
+j  org.apache.coyote.http11.Http11Processor.process(Ljava/io/InputStream;Ljava/io/OutputStream;)V+521
+j  org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Lorg/apache/tomcat/util/net/TcpConnection;[Ljava/lang/Object;)V+113
+j  org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(Ljava/net/Socket;Lorg/apache/tomcat/util/net/TcpConnection;[Ljava/lang/Object;)V+45
+j  org.apache.tomcat.util.net.MasterSlaveWorkerThread.run()V+32
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+V  [jvm.dll+0x75256]
+V  [jvm.dll+0xaf58b]
+V  [jvm.dll+0x75163]
+V  [jvm.dll+0x74e5f]
+V  [jvm.dll+0x74e98]
+V  [jvm.dll+0x8cdbf]
+V  [jvm.dll+0xd3a36]
+V  [jvm.dll+0xd3a04]
+C  [MSVCRT.dll+0x2a3b0]
+C  [kernel32.dll+0xb729]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  sun.jdbc.odbc.JdbcOdbc.allocStmt(J[B)J+0
+j  sun.jdbc.odbc.JdbcOdbc.SQLAllocStmt(J)J+47
+j  sun.jdbc.odbc.JdbcOdbcConnection.prepareStatement(Ljava/lang/String;II)Ljava/sql/PreparedStatement;+55
+j  sun.jdbc.odbc.JdbcOdbcConnection.prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;+8
+j  atad.defina.datos.AccesoDatosJDBC.ejecutarActualizacion(Ljava/lang/String;Ljava/sql/Connection;)Z+28
+j  atad.defina.datos.AccesoDatosJDBC.actualizarVersion(Ljava/lang/Object;Ljava/lang/Object;)Z+49
+j  atad.defina.pres.ProcesadorAjax.modificarVersion(Ljavax/servlet/http/HttpServletRequest;Latad/defina/datos/AccesoDatosBase;)[Ljava/lang/String;+82
+j  atad.defina.pres.ProcesadorAjax.despachar(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/jsp/JspWriter;Ljavax/servlet/http/HttpSession;)V+193
+j  org.apache.jsp.procesarAjax_jsp._jspService(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V+89
+j  org.apache.jasper.runtime.HttpJspBase.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V+3
+j  javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+30
+j  org.apache.jasper.servlet.JspServletWrapper.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Z)V+186
+j  org.apache.jasper.servlet.JspServlet.serviceJspFile(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/Throwable;Z)V+129
+j  org.apache.jasper.servlet.JspServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V+435
+j  javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+30
+j  org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+354
+j  org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+101
+j  org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V+61
+j  org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+117
+j  org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+101
+j  org.apache.catalina.core.StandardWrapperValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+670
+j  org.apache.catalina.core.StandardContextValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+285
+j  org.jboss.web.tomcat.security.CustomPrincipalValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+37
+j  org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+302
+j  org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+327
+j  org.jboss.web.tomcat.security.JaccContextValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+32
+j  org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+64
+j  org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+6
+j  org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+42
+j  org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V+141
+j  org.apache.coyote.http11.Http11Processor.process(Ljava/io/InputStream;Ljava/io/OutputStream;)V+521
+j  org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Lorg/apache/tomcat/util/net/TcpConnection;[Ljava/lang/Object;)V+113
+j  org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(Ljava/net/Socket;Lorg/apache/tomcat/util/net/TcpConnection;[Ljava/lang/Object;)V+45
+j  org.apache.tomcat.util.net.MasterSlaveWorkerThread.run()V+32
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+=>0x038bfc20 JavaThread "http-0.0.0.0-8080-7" daemon [_thread_in_native, id=2080]
+  0x038bf958 JavaThread "http-0.0.0.0-8080-6" daemon [_thread_blocked, id=2140]
+  0x02ecf9c0 JavaThread "http-0.0.0.0-8080-5" daemon [_thread_blocked, id=3708]
+  0x039c20d0 JavaThread "http-0.0.0.0-8080-4" daemon [_thread_blocked, id=4024]
+  0x02ecc600 JavaThread "http-0.0.0.0-8080-3" daemon [_thread_blocked, id=2248]
+  0x00966e48 JavaThread "LOG WRITER" daemon [_thread_in_Java, id=3028]
+  0x00965370 JavaThread "http-0.0.0.0-8080-2" daemon [_thread_blocked, id=3884]
+  0x009b0878 JavaThread "http-0.0.0.0-8080-1" daemon [_thread_blocked, id=3196]
+  0x03c775a8 JavaThread "TP-Monitor" daemon [_thread_blocked, id=356]
+  0x03c79ec8 JavaThread "TP-Processor4" daemon [_thread_in_native, id=3568]
+  0x037ee808 JavaThread "TP-Processor3" daemon [_thread_blocked, id=3244]
+  0x037f0178 JavaThread "TP-Processor2" daemon [_thread_blocked, id=3464]
+  0x03bf0f08 JavaThread "TP-Processor1" daemon [_thread_blocked, id=2176]
+  0x0098e490 JavaThread "http-0.0.0.0-8080" daemon [_thread_in_native, id=584]
+  0x038e2578 JavaThread "JBossLifeThread" [_thread_blocked, id=3040]
+  0x03b5b928 JavaThread "Thread-5" daemon [_thread_blocked, id=3064]
+  0x03bba798 JavaThread "HSQLDB Timer @17456bc" daemon [_thread_blocked, id=1352]
+  0x039ab930 JavaThread "WorkManager(3)-1" daemon [_thread_blocked, id=3056]
+  0x0391ab68 JavaThread "Thread-3" daemon [_thread_blocked, id=1348]
+  0x039f6930 JavaThread "JBossMQ Cache Reference Softner" daemon [_thread_blocked, id=2092]
+  0x038c8388 JavaThread "ContainerBackgroundProcessor[StandardEngine[jboss.web]]" daemon [_thread_blocked, id=972]
+  0x0331eaf8 JavaThread "PooledInvokerAcceptor#0-4445" [_thread_in_native, id=1624]
+  0x0332da28 JavaThread "RMI TCP Accept-4444" daemon [_thread_in_native, id=3388]
+  0x03324630 JavaThread "ClassLoadingPool(2)-1" daemon [_thread_in_native, id=2792]
+  0x03313010 JavaThread "JBoss System Threads(1)-1" daemon [_thread_in_native, id=3740]
+  0x032f1e18 JavaThread "GC Daemon" daemon [_thread_blocked, id=2412]
+  0x032f49a8 JavaThread "RMI Reaper" [_thread_blocked, id=3880]
+  0x03313ba0 JavaThread "Thread-2" daemon [_thread_blocked, id=3204]
+  0x033139c0 JavaThread "RMI TCP Accept-1098" daemon [_thread_in_native, id=1468]
+  0x032d12f0 JavaThread "ScannerThread" daemon [_thread_blocked, id=3300]
+  0x032d42b8 JavaThread "Thread-0" daemon [_thread_blocked, id=2784]
+  0x00036dd0 JavaThread "DestroyJavaVM" [_thread_blocked, id=2096]
+  0x0097c068 JavaThread "CompilerThread0" daemon [_thread_blocked, id=2564]
+  0x0097b408 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=3692]
+  0x008e78c8 JavaThread "Finalizer" daemon [_thread_blocked, id=3724]
+  0x008e6540 JavaThread "Reference Handler" daemon [_thread_blocked, id=3068]
+
+Other Threads:
+  0x0097a6d0 VMThread [id=1100]
+  0x0097dc20 WatcherThread [id=252]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 9152K, used 1733K [0x10010000, 0x109f0000, 0x12770000)
+  eden space 8192K,  21% used [0x10010000, 0x101c1700, 0x10810000)
+  from space 960K,   0% used [0x10810000, 0x10810000, 0x10900000)
+  to   space 960K,   0% used [0x10900000, 0x10900000, 0x109f0000)
+ tenured generation   total 121024K, used 28484K [0x12770000, 0x19da0000, 0x30010000)
+   the space 121024K,  23% used [0x12770000, 0x14341080, 0x14341200, 0x19da0000)
+ compacting perm gen  total 18432K, used 18333K [0x30010000, 0x31210000, 0x34010000)
+   the space 18432K,  99% used [0x30010000, 0x311f7560, 0x311f7600, 0x31210000)
+
+Dynamic libraries:
+0x00400000 - 0x0040b000 	C:\Archivos de programa\j2sdk1.4.2_14\bin\java.exe
+0x7c910000 - 0x7c9c8000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c903000 	C:\WINDOWS\system32\kernel32.dll
+0x77da0000 - 0x77e4c000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e50000 - 0x77ee3000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77fc0000 - 0x77fd1000 	C:\WINDOWS\system32\Secur32.dll
+0x77be0000 - 0x77c38000 	C:\WINDOWS\system32\MSVCRT.dll
+0x08000000 - 0x08143000 	C:\Archivos de programa\j2sdk1.4.2_14\jre\bin\client\jvm.dll
+0x7e390000 - 0x7e421000 	C:\WINDOWS\system32\USER32.dll
+0x77ef0000 - 0x77f39000 	C:\WINDOWS\system32\GDI32.dll
+0x76b00000 - 0x76b2e000 	C:\WINDOWS\system32\WINMM.dll
+0x76340000 - 0x7635d000 	C:\WINDOWS\system32\IMM32.DLL
+0x10000000 - 0x10007000 	C:\Archivos de programa\j2sdk1.4.2_14\jre\bin\hpi.dll
+0x76bb0000 - 0x76bbb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x003f0000 - 0x003fe000 	C:\Archivos de programa\j2sdk1.4.2_14\jre\bin\verify.dll
+0x008b0000 - 0x008c9000 	C:\Archivos de programa\j2sdk1.4.2_14\jre\bin\java.dll
+0x008d0000 - 0x008de000 	C:\Archivos de programa\j2sdk1.4.2_14\jre\bin\zip.dll
+0x030b0000 - 0x030bf000 	C:\Archivos de programa\j2sdk1.4.2_14\jre\bin\net.dll
+0x71a30000 - 0x71a47000 	C:\WINDOWS\system32\WS2_32.dll
+0x71a20000 - 0x71a28000 	C:\WINDOWS\system32\WS2HELP.dll
+0x719d0000 - 0x71a10000 	C:\WINDOWS\System32\mswsock.dll
+0x76ee0000 - 0x76f07000 	C:\WINDOWS\system32\DNSAPI.dll
+0x76d20000 - 0x76d39000 	C:\WINDOWS\system32\iphlpapi.dll
+0x76f70000 - 0x76f78000 	C:\WINDOWS\System32\winrnr.dll
+0x76f20000 - 0x76f4d000 	C:\WINDOWS\system32\WLDAP32.dll
+0x76f80000 - 0x76f86000 	C:\WINDOWS\system32\rasadhlp.dll
+0x66740000 - 0x66799000 	C:\WINDOWS\system32\hnetcfg.dll
+0x71a10000 - 0x71a18000 	C:\WINDOWS\System32\wshtcpip.dll
+0x04080000 - 0x04088000 	C:\Archivos de programa\j2sdk1.4.2_14\jre\bin\nio.dll
+0x04350000 - 0x0435c000 	C:\Archivos de programa\j2sdk1.4.2_14\jre\bin\JdbcOdbc.dll
+0x745e0000 - 0x7461d000 	C:\WINDOWS\system32\ODBC32.dll
+0x58c30000 - 0x58cca000 	C:\WINDOWS\system32\COMCTL32.dll
+0x76360000 - 0x763aa000 	C:\WINDOWS\system32\comdlg32.dll
+0x7e6a0000 - 0x7eec1000 	C:\WINDOWS\system32\SHELL32.dll
+0x77f40000 - 0x77fb6000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x773a0000 - 0x774a3000 	C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll
+0x043e0000 - 0x043f8000 	C:\WINDOWS\system32\odbcint.dll
+0x774b0000 - 0x775ee000 	C:\WINDOWS\system32\ole32.dll
+0x770f0000 - 0x7717b000 	C:\WINDOWS\system32\OLEAUT32.dll
+0x612d0000 - 0x612eb000 	C:\WINDOWS\system32\odbccp32.dll
+0x77bd0000 - 0x77bd8000 	C:\WINDOWS\system32\VERSION.dll
+0x76f90000 - 0x7700f000 	C:\WINDOWS\system32\CLBCATQ.DLL
+0x77010000 - 0x770e0000 	C:\WINDOWS\system32\COMRes.dll
+0x0f9a0000 - 0x0f9ab000 	C:\WINDOWS\system32\VBAJET32.DLL
+0x5b150000 - 0x5b188000 	C:\WINDOWS\system32\uxtheme.dll
+0x4ddc0000 - 0x4de04000 	C:\WINDOWS\system32\odbcjt32.dll
+0x04560000 - 0x046d0000 	C:\WINDOWS\system32\msjet40.dll
+0x046d0000 - 0x04765000 	C:\WINDOWS\system32\mswstr10.dll
+0x67240000 - 0x67250000 	C:\WINDOWS\system32\odbcji32.dll
+0x04f70000 - 0x04f7d000 	C:\WINDOWS\system32\msjter40.dll
+0x04f80000 - 0x04fad000 	C:\WINDOWS\system32\MSJINT40.DLL
+0x05610000 - 0x0564a000 	C:\WINDOWS\system32\msjtes40.dll
+0x0f9c0000 - 0x0fa22000 	C:\WINDOWS\system32\expsrv.dll
+
+VM Arguments:
+jvm_args: -Dprogram.name=run.bat -Xms128m -Xmx512m -Djava.endorsed.dirs=D:\Defina\jboss-4.0.2\bin\\..\lib\endorsed
+java_command: org.jboss.Main -c defina
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Archivos de programa\j2sdk1.4.2_14
+CLASSPATH=.;C:\ARCHIV~1\IBM\SQLLIB\java\db2java.zip;C:\ARCHIV~1\IBM\SQLLIB\java\db2jcc.jar;C:\ARCHIV~1\IBM\SQLLIB\java\db2jcc_license_cu.jar;C:\ARCHIV~1\IBM\SQLLIB\bin;C:\ARCHIV~1\IBM\SQLLIB\java\common.jar
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\ARCHIV~1\IBM\SQLLIB\BIN;C:\ARCHIV~1\IBM\SQLLIB\FUNCTION;C:\ARCHIV~1\IBM\SQLLIB\SAMPLES\REPL;C:\Archivos de programa\j2sdk1.4.2_14\bin
+USERNAME=bicodes
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 69 Stepping 1, GenuineIntel
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 3
+
+CPU:total 1 family 6, cmov, cx8, fxsr, mmx, sse, sse2
+
+Memory: 4k page, physical 2097151k(2097151k free), swap 3797012k(3204544k free)
+
+vm_info: Java HotSpot(TM) Client VM (1.4.2_14-b05) for windows-x86, built on Mar 14 2007 16:46:11 by "java_re" with MS VC++ 6.0
+

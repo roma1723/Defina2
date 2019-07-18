@@ -1,0 +1,116 @@
+/* --- ESTILOS USO GENERAL (USABILIDAD) --- */
+body {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt; background-color: #F8F5ED; margin: 0% 0% 0% 0%; scrollbar-face-color: #d6d3ce; color: #5B5B5B}
+a {  color: #0000EF; font-family: Monotype.com, mono; font-size: 9pt; text-decoration: underline}
+a:link {  color: #0000EF; font-family: Monotype.com, mono; font-size: 9pt; text-decoration: underline}
+a:visited {  color: #0000EF; font-family: Monotype.com, mono; font-size: 9pt; text-decoration: underline}
+.EnlaceSeleccionado {  font-family: Monotype.com, mono; font-size: 9pt; color: #ffffff; text-decoration: underline}
+td {font-family: Arial, Swiss, sans-serif; font-size: 9pt}
+fieldset { border-bottom: #C0B182 1px solid; border-top: #C0B182 1px solid; border-left: #C0B182 1px solid; border-right: #C0B182 1px solid; font-family: Arial, Helvetica, sans-serif; font-size: 9pt ; text-align: left}
+fieldset.Solapa { background-color: #F2EDDF; border-bottom: #C0B182 1px solid; border-top: #C0B182 1px solid; border-left: #C0B182 1px solid; border-right: #C0B182 1px solid; font-family: Arial, Helvetica, sans-serif; font-size: 9pt ; text-align: left}
+legend { font-weight: bold;}
+table.TablaDatos { border-bottom: #4a5565 1px solid; border-top: #C0B182 1px solid; border-left: #C0B182 1px solid; border-right: #4a5565 1px solid;}
+td.Global { border-bottom: #C0B182 1px solid;}
+label { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-style: normal ; text-align: left}
+.TituloVentana { background-color: #2d4492; color: #FFFFFF; text-align: left; font-family: Verdana; font-size: 9pt; font-weight: bold}
+.Etiqueta { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-style: normal ; text-align: left}
+.CampoEntrada {font-family: Monotype.com, mono;font-size: 9pt; color:#4a5565;  background-color: #ffffff; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid;}
+.CampoEntradaError {font-family: Monotype.com, mono;font-size: 9pt; color:#ff0000;  background-color: #ffffff; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid;}
+.CampoEntradaOK {font-family: Monotype.com, mono;font-size: 9pt; color:#006600;  background-color: #ffffff; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid;}
+.CampoEntradaImporte {font-family: Monotype.com, mono;font-size: 9pt; color:#4a5565;  background-color: #ffffff; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid; text-align: right }
+.CampoEntradaImporteError {font-family: Monotype.com, mono;font-size: 9pt; color:#ff0000;  background-color: #ffffff; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid; text-align: right }
+.CampoEntradaImporteOK {font-family: Monotype.com, mono;font-size: 9pt; color:#006600;  background-color: #ffffff; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid; text-align: right }
+.CampoSalida {font-family: Monotype.com, mono; font-size: 9pt; color:#4a5565;  background-color: #F8F5ED; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid;}
+.CampoSalidaError {font-family: Monotype.com, mono; font-size: 9pt; color:#ff0000;  background-color: #F8F5ED; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid;}
+.CampoSalidaOK {font-family: Monotype.com, mono; font-size: 9pt; color:#006600;  background-color: #F8F5ED; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid;}
+.CampoSalidaImporte {font-family: Monotype.com, mono; font-size: 9pt; color:#4a5565;  background-color: #F8F5ED; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid; text-align: right }
+.CampoSalidaImporteError {font-family: Monotype.com, mono; font-size: 9pt; color:#ff0000;  background-color: #F8F5ED; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid; text-align: right }
+.CampoSalidaImporteOK {font-family: Monotype.com, mono; font-size: 9pt; color:#006600;  background-color: #F8F5ED; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid; text-align: right }
+.CampoObligatorio {font-family: Monotype.com, mono; font-size: 9pt; color:#4a5565;  background-color: #ffffb5; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid;}
+.CampoObligatorioError {font-family: Monotype.com, mono; font-size: 9pt; color:#ff0000;  background-color: #ffffb5; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid;}
+.CampoObligatorioOK {font-family: Monotype.com, mono; font-size: 9pt; color:#006600;  background-color: #ffffb5; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid;}
+.CampoObligatorioImporte {font-family: Monotype.com, mono; font-size: 9pt; color:#4a5565;  background-color: #ffffb5; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid; text-align: right }
+.CampoObligatorioImporteError {font-family: Monotype.com, mono; font-size: 9pt; color:#ff0000;  background-color: #ffffb5; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid; text-align: right }
+.CampoObligatorioImporteOK {font-family: Monotype.com, mono; font-size: 9pt; color:#006600;  background-color: #ffffb5; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-right: #4a5565 1px solid; border-left: #4a5565 1px solid; text-align: right }
+.Boton {font-family: Verdana; font-size: 9pt; width: 105px; background-color: #dccfa6; color: #000000; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-left: #4a5565 1px solid; border-right: #4a5565 1px solid;}
+.Boton120 {font-family: Verdana; font-size: 9pt; width: 120px; background-color: #dccfa6; color: #000000; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-left: #4a5565 1px solid; border-right: #4a5565 1px solid;}
+.Boton180 {font-family: Verdana; font-size: 9pt; width: 180px; background-color: #dccfa6; color: #000000; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-left: #4a5565 1px solid; border-right: #4a5565 1px solid;}
+.TextoTabla {  font-family: Arial; font-size: 9pt; font-style: normal}
+.TextoTablaJus {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-style: normal; text-align: justify}
+.TextoTablaCen { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-style: normal ; text-align: center}
+.TextoTablaDer { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-style: normal ; text-align: right}
+.TextoTablaIzq { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-style: normal ; text-align: left}
+.TituloTabla { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #5B5B5B; font-weight: bold; text-align:left; vertical-align: middle}
+.CabeceraTabla { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; background-color:#dccfa6; color: #4a5565; font-weight:bold; text-align:center; vertical-align: middle}
+.CabeceraSeccion { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #5B5B5B; font-weight: bold; text-align:left; vertical-align: middle}
+.Pijama1 { font-family: Monotype.com, mono; font-size: 9pt; background-color: #FFFFFF}
+.Pijama2 { font-family: Monotype.com, mono; font-size: 9pt; background-color: #F3F8FF}
+.Pijama3 { font-family: Monotype.com, mono; font-size: 9pt; background-color: #2d4492; color: #ffffff}
+.Total { font-family: Monotype.com, mono; font-size: 9pt; background-color: #E6DDC6; text-align: left}
+.TotalImporte { font-family: Monotype.com, mono; font-size: 9pt; background-color: #E6DDC6; text-align: right }
+.CampoPijama1 {color: #5B5B5B; font-family: Monotype.com, mono; font-size: 9pt; background-color: #FFFFFF;  border-bottom: #FFFFFF 1px solid; border-top: #FFFFFF 1px solid; border-left: #FFFFFF 1px solid; border-right: #FFFFFF 1px solid;}
+.CampoPijama1Importe {color: #5B5B5B; font-family: Monotype.com, mono; font-size: 9pt; background-color: #FFFFFF;  border-bottom: #FFFFFF 1px solid; border-top: #FFFFFF 1px solid; border-left: #FFFFFF 1px solid; border-right: #FFFFFF 1px solid; text-align: right }
+.CampoPijama2 {color: #5B5B5B; font-family: Monotype.com, mono; font-size: 9pt; background-color: #F3F8FE;  border-bottom: #F3F8FE 1px solid; border-top: #F3F8FE 1px solid; border-left: #F3F8FE 1px solid; border-right: #F3F8FE 1px solid;}
+.CampoPijama2Importe {color: #5B5B5B; font-family: Monotype.com, mono; font-size: 9pt; background-color: #F3F8FE;  border-bottom: #F3F8FE 1px solid; border-top: #F3F8FE 1px solid; border-left: #F3F8FE 1px solid; border-right: #F3F8FE 1px solid; text-align: right }
+.CampoPijama3 {color: #ffffff; font-family: Monotype.com, mono; font-size: 9pt; background-color: #2d4492;  border-bottom: #2d4492 1px solid; border-top: #2d4492 1px solid; border-left: #2d4492 1px solid; border-right: #2d4492 1px solid;}
+.CampoPijama3Importe {color: #ffffff; font-family: Monotype.com, mono; font-size: 9pt; background-color: #2d4492;  border-bottom: #2d4492 1px solid; border-top: #2d4492 1px solid; border-left: #2d4492 1px solid; border-right: #2d4492 1px solid; text-align: right }
+.TextoTablaN {  font-family: Monotype.com, mono; font-size: 9pt; font-style: normal}
+.TextoTablaJusN {  font-family: Monotype.com, mono; font-size: 9pt; font-style: normal; text-align: justify}
+.TextoTablaCenN { font-family: Monotype.com, mono; font-size: 9pt; font-style: normal ; text-align: center}
+.TextoTablaDerN { font-family: Monotype.com, mono; font-size: 9pt; font-style: normal ; text-align: right}
+.TextoTablaIzqN { font-family: Monotype.com, mono; font-size: 9pt; font-style: normal ; text-align: left}
+.FondoSolapa { background-color: #F2EDDF; border-bottom: #4a5565 1px solid; border-top: #F8F5ED 1px solid; border-left: #C0B182 1px solid; border-right: #4a5565 1px solid;}
+.EnlaceSolapaN {color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; text-decoration: underline; vertical-align: middle; text-align: center}
+.EnlaceSolapaActivaN {color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; text-decoration: none; vertical-align: middle; text-align: center; font-weight: bold}
+.EnlaceSolapaDesactivadaN {color: #5B5B5B; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; text-decoration: none; vertical-align: middle; text-align: center;}
+.CabeceraRelacionada { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; background-color:#86aef2; color: #FFFFFF; font-weight:bold; text-align:left; vertical-align: middle}
+.FondoRelacionada { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; background-color: #E5eefd}
+.CabeceraRelacionada2 { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; background-color:#dccfa6; color: #000000; font-weight:bold; text-align:left; vertical-align: middle}
+.FondoRelacionada2 { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; background-color: #ede7d1}
+.SeleccionadoRelacionada { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #660033; text-align:left; vertical-align: middle}
+.linkDes {cursor: default;}
+.linkAbi {cursor: hand;}
+.SinSalto { white-space: nowrap }
+
+/* --- ESTILOS SOLO COMPONENTES ARQUITECTURA --- */
+/* >> Componente pestaña */
+.PanelPestanas .tab-row .tab {cursor: hand; position: relative; float: left; display: inline; z-index: 3; top: -2px;	color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; text-decoration: underline; vertical-align: middle; text-align: center;	background-color: #E7E7E4;	border-bottom: #000000 0px solid; border-top: #ffffff 1px solid; 	border-left: #ffffff 1px solid; border-right: #000000 1px solid; margin: 1px 4px -3px 0px; padding: 2px 6px 3px 6px;}
+.PanelPestanas .tab-row .tab.selected { z-index: 3; padding: 2px 6px 4px 6px;	margin: 1px 4px -3px 0px; top: -2px; font-weight: bold; cursor: Default; text-decoration: none;	background-color: #E7E7E4;	border-bottom: #000000 0px solid; border-top: #ffffff 1px solid; border-left: #ffffff 1px solid; border-right: #000000 1px solid; border-bottom: 0;}
+.PanelPestanas .tab-row .tab.disabled{	color: #555555; cursor: Default;	text-decoration: none;}
+.PanelPestanas .tab-page { clear: both; z-index: 2; position: relative;	top: 0px; background-color: #E7E7E4; border-bottom: #000000 1px solid; border-top: #ffffff 1px solid; border-left: #ffffff 1px solid; border-right: #000000 1px solid;}
+/* >> Componente tabla editable */
+/*
+	.CabeceraTablaN { background-color: #d6d3ce; color: #000000; text-align: left; font-family: Monotype.com, mono; font-size: 9pt; font-style: normal}
+	.titulotabla { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #FFFFFF; font-weight:bold; text-align:left;}
+	.textablacabecera { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; font-weight:bold; text-align:center; vertical-align: center;}
+	.textablacabeceraleft { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; font-weight:bold; text-align:left; vertical-align: center;}
+	.fila { height: 25px; background-color:#FFF7F7; layer-background-color:#FFF7F7;}
+	.fila1 { height: 25px; background-color:#EFEFEF; layer-background-color:#EFEFEF;}
+	.fila2 { height: 25px; background-color: #eeeeee; vertical-align: middle}
+	.filaseleccionada { color: #FFFFFF; background-color:#524D9C; layer-background-color:#524D9C;}
+*/
+.BotonPaginacion {font-family: Verdana; font-size: 9pt; width: 105px; background-color: #dccfa6; color: #000000; border-bottom: #4a5565 1px solid; border-top: #4a5565 1px solid; border-left: #4a5565 1px solid; border-right: #4a5565 1px solid;}
+.FormElementTransparent{font-family: Arial, Helvetica, sans-serif; font-size: 9pt; background-color: transparent;}
+/* >> Sin definir su aplicación */
+/*
+	.Mensaje {  font-family: Monotype.com, mono; font-size: 9pt; font-style: normal; color: #FF0000}
+	.labelnormal {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; vertical-align: center;}
+	.labelerror {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #ff0000; vertical-align: center;}
+	.margen { position:absolute; top:100px; width:130px; height: 400px; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #ff0000}
+	.target { position:absolute; left:130px; top:100px; width:800px; height: 400px;  font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #ff0000}
+	.pie { position:absolute; top:500px; width:900px; height: 100px; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #ff0000}
+	.encabezado { position:absolute; left:100; top:10; width:500; height: 100px; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #ff0000}
+	.cabecera { height: 25px; background-color:#D6D3E7; layer-background-color:#D6D3E7;}
+	.cabeceracentrado { height: 25px; background-color:#D6D3E7; layer-background-color:#D6D3E7; text-align:center;}
+	.cabeceratitulo { width:700; height: 20px; background-color:#524D9C; layer-background-color:#524D9C;}
+	.dato { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; text-align:left;}
+	.euros { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; font-weight:bold; text-align:right;}
+	.pesetas { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; font-weight:bold; text-align:right;}
+	.monedapositiva{}
+	.datob { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; text-align:left; font-weight:bold;}
+	.fondotitular { background-color:#aaaaaa; background: #9C9CCE;} 
+	.textitular { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; text-align:center; font-weight:bold;}
+	.datocentrado { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; text-align:center;}
+	.TituloVentanaError { background-color: #ff0000; color: #FFFFFF; text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold}
+	.texto_titulo { font-family: "Bookman Old Style"; font-size: 60pt; color: #1287EB; vertical-align: center;}
+	.texto_error { font-family: "Bookman Old Style"; font-size: 16pt; color: #FF3939; vertical-align: center;}
+*/

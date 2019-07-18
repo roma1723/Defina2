@@ -1,0 +1,83 @@
+Body {background-color:#FFFFFF;margin-top:2px;FONT-FAMILY:verdana, arial, helvetica, sans-serif;COLOR:#000033;FONT-SIZE:11px;letter-spacing:;; background-image: url(../images/textura%20_azul.gif)} 
+.EscSeparador { border-right: 2 groove #FFFFFF }
+.EscSeparaIzq { border-left: 2 groove #FFFFFF }
+.EscTabla    { background-color: #D6D3CE; font-family: Verdana; border: 1 solid #000000 }
+.EscArea     { background-color: #D6D3CE; border-right: 2 groove #FFFFFF; 
+               border-top: 2 groove #FFFFFF }
+.EscTitulo   { font-size: 10 pt; background-color: #000080; color: 
+               #FFFFFF; font-weight: bold }
+.EscriFont   { color: #0000CC; letter-spacing: -1 }
+.EscriFont:visited {TEXT-DECORATION:none;color: #000066; letter-spacing: -1 }
+.EscriFont:link {TEXT-DECORATION:none;color: #000066; letter-spacing: -1 }
+.EscriFont:hover { text-decoration: underline; color: #000080; font-weight: bold; letter-spacing: -1 }
+Table {background-color:;padding:2px;margin:0px;width:100%;align:;float:;} 
+P, TD, DIV {background-color:;COLOR:#000000;FONT-SIZE:11px;vertical-align:top;padding:2px;} 
+h3, a.H3, a.H3:link, a.H3:visited { font-family: verdana, arial, helvetica, sans-serif; color: #633232; 
+               font-size: 12px; text-decoration: none }
+h4, a.H4, a.H4:link, a.H4:visited { font-family: verdana, arial, helvetica, sans-serif; color: #660033; 
+               font-size: 11px }
+A {FONT-FAMILY:verdana, arial, helvetica, sans-serif;TEXT-DECORATION:underline;FONT-SIZE:;COLOR:#000099;font-weight:;letter-spacing:;} 
+A:active {TEXT-DECORATION:underline;COLOR:#0000CC;;} 
+A:visited {TEXT-DECORATION:underline;COLOR:#0000CC;;} 
+A:link {TEXT-DECORATION:underline;COLOR:#0000CC;} 
+a:hover      { text-decoration: underline; color: #000080; font-weight: bold }
+.Imagen {;} 
+.Imagen:active {;} 
+.Imagen:visited {;} 
+.Imagen:link {;} 
+.Imagen:hover {;}
+.HeaderTable {background-color:;padding:3px;margin:0px;border-width:0px;border-color:#000000;border-style:solid;border-collapse:collapse;} 
+.HeaderTD    { font-weight: bold; padding: 3px }
+.HeaderFont  { font-family: verdana, arial, helvetica, sans-serif; font-size: 10 pt; color: 
+               #006600; letter-spacing: 0px; font-weight: bold }
+.HeaderFont:visited { text-decoration: underline; color: #000080 }
+.HeaderFont:link { text-decoration: underline; color: #000080; font-weight: bold }
+.HeaderFont:hover { text-decoration: none; color: #CC9900 }
+.LabelTD     { background-color: #CCFFFF; vertical-align: top; font-weight: bold; 
+               border: 0px solid #555555; padding: 2px }
+.LabelTD2    { background-color: #CCFFFF; vertical-align: top;  
+               border: 0px solid #555555; padding: 2px }
+.LabelFont   { color: #000000; font-size: 8 pt }
+.LabelFont:visited {TEXT-DECORATION:none;COLOR:#CCCCCC;} 
+.LabelFont:link {TEXT-DECORATION:none;COLOR:#CCCCCC;} 
+.LabelFont:hover { text-decoration: underline }
+.DataTD      { background-color: #CCFFCC; padding: 2px }
+.DataFont {font-size:;color:#0000CC;} 
+.DataFont:visited {TEXT-DECORATION:none;color: #000066 }
+.DataFont:link {TEXT-DECORATION:none;color: #000066 }
+.DataFont:hover { text-decoration: underline; color: #000080; font-weight: bold }
+.FieldTD     { background-color: #B9DFE6; vertical-align: top; font-weight: bold; 
+               border-style: outset; border-width: 2; padding: 2px }
+.FieldFont   { letter-spacing: 1px }
+.FieldFont:visited { text-decoration: none; color: #000080 }
+.FieldFont:link { text-decoration: none; color: #000080 }
+.FieldFont:hover { text-decoration: underline; font-weight: bold }
+.BotonTD     { background-color: #CCFFFF; vertical-align: top; font-weight: bold;
+               border-style: outset; border-width: 2 }
+.BotonFont   { letter-spacing: -1px }
+.BotonFont:visited { text-decoration: none; color: #000080 }
+.BotonFont:link { text-decoration: none; color: #000080 }
+.BotonFont:hover { text-decoration: underline; font-weight: bold; background-color: #66FFFF; 
+               color: #000000 }
+.MenuTable {background-color:;padding:2px;margin-left:1px;margin-right:1px;border-width:0px;border-color:#cfdf75;border-style:solid;border-collapse:none;} 
+.MenuHeaderTD { font-size: 12px; color: #000080; padding: 1px }
+.MenuTD {background-color:;color:#330000;padding:3px;margin:0px;border-width:1px;border-style:solid;border-color:#cfdf75;text-align:;vertical-align:;} 
+.MenuFont {FONT-FAMILY:verdana, arial, helvetica, sans-serif;;font-size:12px;color:#000000;font-weight:900;letter-spacing:0px;} 
+.MenuFont:visited {TEXT-DECORATION:underline;color:#555555;font-weight:800;} 
+.MenuFont:link {TEXT-DECORATION:underline;color:#555555;font-weight:800;} 
+.MenuFont:hover { text-decoration: underline; color: #000080; font-weight: bold }
+.MsgTD {background-color:#FFFFFF;padding:2px;vertical-align:top;text-align:;} 
+.MsgFont {FONT-FAMILY:;font-size:8pt;color:#000000;font-weight:300;padding:2px;} 
+.ErrTD {background-color:#FFFFFF;padding:2px;vertical-align:top;text-align:;} 
+.ErrFont {FONT-FAMILY:;font-size:8pt;color:#000000;font-weight:300;padding:2px;} 
+
+select       { font-family: verdana, arial, helvetica, sans-serif; font-size: 9px; 
+               background-color: #ffffff }
+input        { font-family: verdana, arial, helvetica, sans-serif; font-size: 9px; 
+               background-color: #ffffff }
+textarea     { font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; 
+               background-color: #ffffff }
+.Boton       { background-color: #C0C0C0 }
+
+.HeaderFont2 { font-family: verdana, helvetica, sans-serif; font-size: 14px; color: #0000FF; letter-spacing: 0px; font-weight: bold }
+.HeaderFont3 { font-family: verdana, helvetica, sans-serif; font-size: 14px; color: #000000; letter-spacing: 0px; font-weight: bold }

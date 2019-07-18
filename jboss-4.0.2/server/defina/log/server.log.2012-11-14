@@ -1,0 +1,45 @@
+2012-11-14 12:33:34,417 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-11-14 12:37:48,742 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-11-14 12:37:48,742 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-11-14 12:37:48,742 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-11-14 12:37:48,742 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
+2012-11-14 12:52:49,216 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-11-14 12:52:51,560 INFO  [STDOUT] JDBC :: Canal es Ligeros
+2012-11-14 13:08:41,682 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[localhost].[/defina].[jsp]] Servlet.service() for servlet jsp threw exception
+atad.defina.entorno.DefinaException: Error defina 0xc  [La ruta al conector de acceso a datos no ha sido informada]
+	at atad.defina.datos.Pool.crearConexionDatos(Pool.java:32)
+	at atad.defina.datos.Pool.<init>(Pool.java:25)
+	at atad.defina.datos.AccesoDatosJDBC.getConexionDatos(AccesoDatosJDBC.java:771)
+	at atad.defina.datos.AccesoDatosJDBC.buscaOperaciones(AccesoDatosJDBC.java:444)
+	at org.apache.jsp.operacion_jsp._jspService(org.apache.jsp.operacion_jsp:385)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:202)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.jboss.web.tomcat.security.CustomPrincipalValve.invoke(CustomPrincipalValve.java:39)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:153)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:407)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:59)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:744)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:527)
+	at org.apache.tomcat.util.net.MasterSlaveWorkerThread.run(MasterSlaveWorkerThread.java:112)
+	at java.lang.Thread.run(Thread.java:595)
+2012-11-14 13:08:57,072 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-11-14 13:08:59,181 INFO  [STDOUT] JAVA JSP :: Página de Logon
+2012-11-14 13:08:59,181 INFO  [STDOUT] JAVA JSP :: Acción de LOGON
+2012-11-14 13:08:59,181 INFO  [STDOUT] JAVA JSP :: Usuario 
+2012-11-14 13:08:59,181 INFO  [STDOUT] JAVA JSP :: Va a index.jsp
